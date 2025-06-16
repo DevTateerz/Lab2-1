@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่ท่องเที่ยวนครสวรรค์</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #141414;
+            color: #fff;
+        }
+        .navbar-brand {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+        .nav-link {
+            color: #fff !important;
+        }
+        .hero {
+            background-image: url('https://images.dmc.tv/wallpaper/raw/900.jpg');
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+        .movie-row {
+            overflow-x: auto;
+            flex-wrap: nowrap;
+        }
+        .movie-card {
+            width: 200px;
+            margin-right: 10px;
+        }
+        .movie-card img {
+            width: 100%;
+            height: flex;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">สถานที่ท่องเที่ยวนครสวรรค์</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">สถานที่</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ประวัติ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">การเดินทาง</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to สถานที่ท่องเที่ยวนครสวรรค์</h1>
+            <p>Watch unlimited TV shows and movies.</p>
+            <button class="btn btn-danger">Watch Now</button>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <h2>Popular on NetflixClone</h2>
+        <div class="row movie-row">
+            <div class="col movie-card">
+                <img src="https://lh5.googleusercontent.com/proxy/t0tSkDVXE8wwnf3I1UD1hjWDBBschCiOgHBKn-GQ0JkDjRlgn6grgNLPj40sQibMjaAR_jTVNBsP1TvHlpfFKxEqCaP_yCgnfajY4w" alt="Fackbook">
+            </div>
+            <div class="col movie-card">
+                <img src="https://images.workpointtoday.com/workpointnews/2021/10/11144625/1633938382_53963_242999785.jpg" alt="Twitter">
+            </div>
+            <div class="col movie-card">
+                <img src="https://cbtthailand.dasta.or.th/upload-file-api/Resources/RelateAttraction/Images/RAT600167/2.jpeg" alt="Instagram">
+            </div>
+            <div class="col movie-card">
+                <img src="https://img.wongnai.com/p/1920x0/2018/05/26/d169ab0284eb46248ff709dfc4f9aa66.jpg" alt="YouTube">
+            </div>
+            <div class="col movie-card">
+                <img src="https://cms.dmpcdn.com/travel/2023/06/14/1de8c2c0-0a7c-11ee-9ffa-5bf7091677bf_webp_original.webp" alt="Line">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<footer style="background-color: #202020; color: #ffffff; padding: 40px 20px; text-align: center;">
+    <div class="footer-links">
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+        <li>
+          <a href="/terms" style="color: #bbbbbb; text-decoration: none; font-size: 16px;">
+            ข้อตกลงการใช้บริการ
+          </a>
+        </li>
+        <li>
+          <a href="/privacy" style="color: #bbbbbb; text-decoration: none; font-size: 16px;">
+            นโยบายความเป็นส่วนตัว
+          </a>
+        </li>
+        <li>
+          <a href="/support" style="color: #bbbbbb; text-decoration: none; font-size: 16px;">
+            การสนับสนุน
+          </a>
+        </li>
+      </ul>
+      <p style="margin-top: 30px; font-size: 14px; color: #777;">© 2025 YourCompany. สงวนลิขสิทธิ์.</p>
+    </div>
+  </footer>
+  <footer>
+    <div class="newsletter">
+      <h3>สมัครรับข่าวสาร</h3>
+      <p>รับข่าวสารใหม่ ๆ โปรโมชั่น และอัปเดตจากเรา</p>
+      <form action="#" method="post">
+        <input type="email" name="email" placeholder="กรอกอีเมลของคุณ" required>
+        <button type="submit">สมัครเลย</button>
+      </form>
+    </div>
+    
+  </footer>
+  
+  <style>
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  
+    .newsletter h3 {
+      margin-bottom: 10px;
+    }
+  
+    .newsletter p {
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+  
+    form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      border: none;
+      border-radius: 4px;
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #e60000;
+    }
+  
+    .copyright {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
